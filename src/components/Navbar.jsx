@@ -6,14 +6,14 @@ const Navbar = () => {
   const [showCategories, setShowCategories] = useState(false);
 
   return (
-    <nav className="bg-teal-500 py-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-sky-950 py-4">
+      <div className="flex items-center justify-center px-4">
         <div className="mr-6">
           <img src={logo} alt="Consultorio Ayelén Maitén Giacoboni" className="h-12" />
         </div>
-        <div className="flex items-center justify-center flex-grow">
+        <div className="flex items-center justify-center w-[60%] px-4">
           <img src="" alt="" />
-          <form className="bg-white p-2 h-[20%] w-full rounded-lg">
+          <form className="bg-white p-2 w-full rounded-lg">
             <input type="text" placeholder="Buscar" className="w-full px-4 py-2 rounded-lg focus:outline-none focus:shadow-outline" />
           </form>
         </div>
@@ -33,6 +33,9 @@ const Navbar = () => {
                   </li>
                   <li>
                     <button className="hover:underline">Blog</button>
+                  </li>
+                  <li>
+                    <button className="text-white text-xl">Productos</button>
                   </li>
                 </ul>
               )}

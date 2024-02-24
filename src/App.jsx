@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ItemListContainer greeting={`Gracias por tu visita!\nEsperamos tu compra.`} />
+      <ItemListContainer greeting={`Gracias por tu visita!\nSitio en Construcción!`} />
     </>
   );
 }
