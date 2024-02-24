@@ -21,18 +21,18 @@ const Navbar = () => {
           <ul className="flex space-x-4 items-center">
             <li>
               <button className="text-white text-xl" onClick={() => setShowCategories(!showCategories)}>
-                Categorías
+                Menú
               </button>
               {showCategories && (
                 <ul className="absolute bg-white text-xl w-[20%] py-2 mt-2 border rounded-lg shadow-md">
                   <li>
-                    <button className="hover:underline">Categoría 1</button>
+                    <button className="hover:underline">Nosotros</button>
                   </li>
                   <li>
-                    <button className="hover:underline">Categoría 2</button>
+                    <button className="hover:underline">Turnos</button>
                   </li>
                   <li>
-                    <button className="hover:underline">Categoría 3</button>
+                    <button className="hover:underline">Blog</button>
                   </li>
                 </ul>
               )}
